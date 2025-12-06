@@ -1,0 +1,119 @@
+# requirements.txt
+# =====================================================
+# Archivo de dependencias para Calculadora IP - CIDR y VLSM
+# 
+# Este proyecto no requiere dependencias externas ya que
+# utiliza únicamente la biblioteca estándar de Python.
+# 
+# Tkinter viene incluido con Python en la mayoría de las
+# instalaciones estándar.
+# =====================================================
+
+# No se requieren paquetes adicionales
+# Python >= 3.7
+
+# Para desarrollo y testing (opcional):
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
+
+# Para crear ejecutables (opcional):
+# pyinstaller>=5.0.0
+
+
+@echo off
+title Calculadora IP - CIDR y VLSM
+echo ============================================
+echo    Calculadora IP - CIDR y VLSM
+echo    Instituto Politecnico Nacional
+echo    Escuela Superior de Computo
+echo ============================================
+echo.
+echo Iniciando aplicacion...
+echo.
+
+REM Verificar si Python esta instalado
+python --version >nul 2>&1
+if errorlevel 1 (
+    echo ERROR: Python no esta instalado o no esta en el PATH
+    echo.
+    echo Por favor instale Python 3.7 o superior desde:
+    echo https://www.python.org/downloads/
+    echo.
+    pause
+    exit /b 1
+)
+
+REM Ejecutar la aplicacion
+python main.py
+
+REM Pausar si hay error
+if errorlevel 1 (
+    echo.
+    echo La aplicacion se cerro con errores.
+    pause
+)
+
+
+# =====================================================
+# ejecutar.sh (Linux/Mac)
+# =====================================================
+# Guardar este contenido en un archivo llamado "ejecutar.sh"
+# Dar permisos de ejecución: chmod +x ejecutar.sh
+
+#!/bin/bash
+
+# Colores para output
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
+
+echo "============================================"
+echo "   Calculadora IP - CIDR y VLSM"
+echo "   Instituto Politécnico Nacional"
+echo "   Escuela Superior de Cómputo"
+echo "============================================"
+echo ""
+
+# Verificar si Python 3 está instalado
+if ! command -v python3 &> /dev/null
+then
+    echo -e "${RED}ERROR: Python 3 no está instalado${NC}"
+    echo ""
+    echo "Por favor instale Python 3.7 o superior:"
+    echo "  Ubuntu/Debian: sudo apt-get install python3 python3-tk"
+    echo "  Fedora: sudo dnf install python3 python3-tkinter"
+    echo "  macOS: brew install python-tk"
+    exit 1
+fi
+
+# Mostrar versión de Python
+echo -e "${GREEN}Python encontrado:${NC}"
+python3 --version
+echo ""
+
+# Verificar Tkinter
+echo "Verificando Tkinter..."
+if ! python3 -c "import tkinter" &> /dev/null
+then
+    echo -e "${RED}ERROR: Tkinter no está instalado${NC}"
+    echo ""
+    echo "Instale Tkinter con:"
+    echo "  Ubuntu/Debian: sudo apt-get install python3-tk"
+    echo "  Fedora: sudo dnf install python3-tkinter"
+    exit 1
+fi
+
+echo -e "${GREEN}Tkinter encontrado${NC}"
+echo ""
+
+# Ejecutar la aplicación
+echo "Iniciando aplicación..."
+python3 main.py
+
+# Verificar código de salida
+if [ $? -ne 0 ]; then
+    echo ""
+    echo -e "${RED}La aplicación se cerró con errores.${NC}"
+    read -p "Presione Enter para continuar..."
+fi
