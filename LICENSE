@@ -1,0 +1,71 @@
+MIT License
+
+Copyright (c) 2025 [Demian Romero Bautista y Renata Garcia Resendiz]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+## Proyecto académico
+
+**Calculadora IP - CIDR y VLSM**
+
+Este proyecto fue desarrollado como parte del Proyecto 3 de la materia de 
+Redes de Computadoras en el Instituto Politécnico Nacional - Escuela Superior 
+de Cómputo (IPN-ESCOM).
+
+### 👥 Autores
+
+- **Demian Romero Bautista
+  - Boleta: 2024630144
+  - GitHub: @DemianRom
+  - Email:demian0106@gmail.com
+
+- **Renata Garcia Resendiz
+  - Boleta: 2024630315
+  - GitHub: @f3nixrg
+  - Email: rresendizg2000@alumno.ipn.mx
+
+### Información Académica
+
+- **Institución:** Instituto Politécnico Nacional
+- **Escuela:** Escuela Superior de Cómputo (ESCOM)
+- **Materia:** Redes de Computadoras
+- **Proyecto:** Proyecto 3 - Calculadora IP (CIDR y VLSM)
+- **Profesor:** [Juan Jesus Alcaráz Torres]
+- **Semestre:** 2026-1
+- **Fecha:** Diciembre 2025
+
+###  Nota sobre Integridad Académica
+
+Aunque este código está bajo licencia MIT y puede ser usado libremente, 
+es responsabilidad del usuario:
+
+1. Dar crédito apropiado si lo usas como referencia
+2. Entender el código antes de presentarlo en contextos académicos
+3. Respetar las políticas de integridad académica de tu institución
+4. No presentar este trabajo como propio sin modificaciones significativas
+
+### Cómo Citar Este Proyecto
+
+Si usas este código como referencia en trabajos académicos:
+
+Romero Bautista, Garcia Resendiz. (2025).
+Calculadora IP - CIDR y VLSM [Software].
+Instituto Politécnico Nacional. https://github.com/DemianRom/Calculadora-IP---CIDR-y-VLSM
+

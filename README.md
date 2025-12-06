@@ -1,5 +1,13 @@
 # Calculadora IP - CIDR y VLSM
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/)
+[![IPN-ESCOM](https://img.shields.io/badge/IPN-ESCOM-green.svg)](https://www.escom.ipn.mx/)
+[GitHub stars](https://img.shields.io/github/stars/DemianRom/Calculadora-IP---CIDR-y-VLSM?style=social)](https://github.com/DemianRom/Calculadora-IP---CIDR-y-VLSM/stargazers)
+
+> Herramienta robusta de subredes IPv4 (CIDR/VLSM) construida con Python. 
+> Creada para estudios de Ingeniería en Redes y código abierto bajo licencia MIT.
+
 ## Información del Proyecto
 
 **Institución:** Instituto Politécnico Nacional - Escuela Superior de Cómputo  
@@ -48,11 +56,16 @@ calculadora-ip-vlsm/
 │   ├── cidr_calculator.py       # Lógica de la calculadora CIDR
 │   ├── vlsm_calculator.py       # Lógica de la calculadora VLSM
 │   └── gui.py                   # Interfaz gráfica de usuario
+├── docs/
+│   └──screenshot.png       
 │
 ├── main.py                       # Punto de entrada de la aplicación
 ├── README.md                     # Este archivo
 ├── ejecutar_win.bat          # Script para Windows
 ├── ejecutar_mac.sh            # Script para Linux/Mac
+└── requirements.txt             # Dependencias del proyecto
+
+
 ```
 
 
@@ -145,13 +158,24 @@ El algoritmo VLSM implementado sigue estos pasos:
    - Verificar que puntero_actual no exceda el límite de la red base
    - Si excede → Error: "Espacio insuficiente"
 
-## Créditos y Licencia
+##  Equipo de Desarrollo
 
-**Desarrollado por:** [Demian Romero Bautista y Renata García Resendiz]  
-**Grupo:** 5CV1   
+Este proyecto fue desarrollado por estudiantes de:
 
-**Materia:** Redes de Computadoras  
-**Profesor:** [Juan Jesus Alcaráz Torre]
+**Instituto Politécnico Nacional**  
+**Escuela Superior de Cómputo**  
+Proyecto 3 - Redes de Computadoras
 
-**Licencia:** Este proyecto es de uso académico para el IPN - ESCOM
+## 📄 Licencia
 
+Este proyecto está bajo la Licencia MIT. Ver LICENSE para más detalles.
+
+## 🙏 Agradecimientos
+
+- Instituto Politécnico Nacional
+- Escuela Superior de Cómputo
+- Profesor: [Juan Jesus Alcaráz Torres]
+
+---
+
+**"La Técnica al Servicio de la Patria"**

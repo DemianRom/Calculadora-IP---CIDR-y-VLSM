@@ -1,9 +1,19 @@
 """
 Archivo: main.py
+
+Copyright (c) 2025 Demian Romero Bautista y Renata Garciía Resendiz
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
 Descripción: Punto de entrada principal de la aplicación Calculadora IP - CIDR y VLSM
 Proyecto: Calculadora IP - CIDR y VLSM
 Instituto Politécnico Nacional - Escuela Superior de Cómputo
-Equipo: Demian Romero Bautista y Renata García Resendiz
 Grupo: 5CV1
 Asignatura: Redes de Computadoras
 Fecha: Diciembre 2025
@@ -14,6 +24,19 @@ Instrucciones de ejecución:
 Requisitos:
     - Python 3.7 o superior
     - Tkinter (incluido en Python estándar)
+
+    ### 🤝 Contribuciones
+
+Este proyecto fue desarrollado con fines educativos. Si encuentras errores 
+o deseas mejorarlo, las contribuciones son bienvenidas mediante pull requests.
+
+### 📞 Contacto
+
+Para preguntas sobre este proyecto:
+- Email del equipo: equipo.calculadora@gmail.com
+- Repositorio: https://github.com/DemianRom/Calculadora-IP---CIDR-y-VLSM
+- Issues: https://github.com/DemianRom/Calculadora-IP---CIDR-y-VLSM/issues
+
 """
 
 import sys
